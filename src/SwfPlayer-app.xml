@@ -15,7 +15,7 @@
 
 	<!-- A universally unique application identifier. Must be unique across all AIR applications.
 	Using a reverse DNS-style name as the id is recommended. (Eg. com.example.ExampleApplication.) Required. -->
-	<id>SwfPlayer</id>
+	<id>com.greelane.SwfPlayer</id>
 
 	<!-- Used as the filename for the application. Required. -->
 	<filename>SwfPlayer</filename>
@@ -260,7 +260,7 @@
                          <action android:name="android.intent.action.VIEW"/>
                          <category android:name="android.intent.category.BROWSABLE"/>
                          <category android:name="android.intent.category.DEFAULT"/>
-                         <data android:scheme="swf" android:host="com.vinapo.swfplayer"/>
+                         <data android:scheme="swf" android:host="com.greelane.swfplayer"/>
                      </intent-filter>
                  </activity>
              </application>
